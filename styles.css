@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap');
-:root{
+
+:root {
     --color1: #FF0000;
     --color2: #800080;
     --color3: #FF00FF;
@@ -10,146 +11,226 @@
     --color-gris-claro: #CCCCCC;
     --color-gris-oscuro: #333333;
 }
-body{
-    font-family: "Jost",Arial, Helvetica, sans-serif;
-    margin: 0;/* eliminando el margen del body*/
+
+body {
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* eliminando el margen del body*/
 }
-img{
+
+img {
     display: block;
     max-width: 100%;
 }
-a{
+
+a {
     color: var(--color-blanco);
 }
-p{
+
+p {
     margin-top: 0;
 }
-h1, h2, h3, h4, h5, h6, ul{
-    margin:0 /* eliminando el margen de todos las h*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0
+        /* eliminando el margen de todos las h*/
 }
-h1{
+
+h1 {
     font-size: 50px;
     font-weight: 900;
     letter-spacing: -2px;
     margin-bottom: 0;
 }
-h2{
+
+h2 {
     font-size: 45px;
     font-weight: 700;
     padding-bottom: 20px;
 }
-h3{
+
+h3 {
     font-style: italic;
     font-size: 25px;
 }
-ul{
+
+ul {
     padding-left: 20px;
 }
-#encabezado{
+
+#encabezado {
     background-color: var(--color1);
     line-height: 2.3em;
 }
-#encabezado p{
+
+#encabezado p {
     margin: 0;
 }
-#main_header p{
+
+#main_header p {
     margin: 0;
     font-size: 20px;
 }
-#main_header{
+
+#main_header {
     background-color: var(--color2);
     color: var(--color-blanco);
 }
-#necesidad_adictiva{
+
+#necesidad_adictiva {
     background-color: var(--color3);
     color: var(--color-blanco);
 }
-#Gamer{
+
+#Gamer {
     background-color: var(--color2);
     color: var(--color-blanco);
 }
-#la_compañia{
+
+#la_compañia {
     background-color: var(--color1);
 }
-#vision_global{
+
+#vision_global {
     background-color: var(--color2);
     color: var(--color-blanco);
 }
-#ofertas{
+
+#ofertas {
     background-color: var(--color1);
 }
-#pie_pagina{
+
+#pie_pagina {
     background-color: var(--color4);
     color: var(--color-blanco);
 }
-#pie_pagina h2{
+
+#pie_pagina h2 {
     font-size: 40px;
 }
-#pie_pagina h2{
+
+#pie_pagina h2 {
     padding: 0;
 }
-#main_footer{
+
+#main_footer {
     background-color: var(--color3);
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.padded{
+
+.padded {
     padding-top: 90px;
     padding-bottom: 90px;
 }
-.container{
+
+
+.container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
 }
-.row{
+
+.row {
     display: flex;
     margin-left: -15px;
     margin-right: -15px;
 }
-.col{
+
+.col {
     flex-basis: 0;
     flex-grow: 1;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
 }
-.col_50{
-    flex-basis: 50%;
+
+.col_50 {
+    flex-basis: 20%;
     max-width: 50%;
 }
-.col_45{
+
+
+.col_45 {
     flex-basis: 45%;
     max-width: 45%;
 }
-.col_60{
+
+.col_60 {
     flex-basis: 60%;
     max-width: 60%;
 }
 
-.img_fluid{
+.img_fluid {
     max-width: 100%;
     border-radius: 15px;
 }
-.centrado_vertical{
+
+.centrado_vertical {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.sin_subrayado{
+
+.sin_subrayado {
     text-decoration: none;
     font-style: italic;
 }
-.centrado_vertical{
+
+.centrado_vertical {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.separador{
+
+.separador {
     margin-bottom: 40px;
 }
-.text_normal{
+
+.text_normal {
     font-style: normal;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 202px;
+}
+
+.tam1 {
+    width: 270px;
+    height: 270px;
+}
+
+.tam2 {
+    width: 106px;
+    height: 54px;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+.tam3 {
+    width: 75px;
+    height: 36px;
+    font-size: 16px;
+}
+
+.tam4 {
+    width: 80px;
+    height: 36px;
+    font-size: 16px;
+}
+
+.tam5 {
+    width: 270px;
+    height: 208px;
 }
