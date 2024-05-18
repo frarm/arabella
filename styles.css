@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap');
+:root{
+    --color1: #FF0000;
+    --color2: #800080;
+    --color3: #FF00FF;
+    --color4: #FF4500;
+    --color5: #800000;
+    --color-blanco: #ffffff;
+    --color-negro: #000000;
+    --color-gris-claro: #CCCCCC;
+    --color-gris-oscuro: #333333;
+}
+body{
+    font-family: "Jost",Arial, Helvetica, sans-serif;
+    margin: 0;/* eliminando el margen del body*/
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+a{
+    color: var(--color-blanco);
+}
+p{
+    margin-top: 0;
+}
+h1, h2, h3, h4, h5, h6, ul{
+    margin:0 /* eliminando el margen de todos las h*/
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+h3{
+    font-style: italic;
+    font-size: 25px;
+}
+ul{
+    padding-left: 20px;
+}
+#encabezado{
+    background-color: var(--color1);
+    line-height: 2.3em;
+}
+#encabezado p{
+    margin: 0;
+}
+#main_header p{
+    margin: 0;
+    font-size: 20px;
+}
+#main_header{
+    background-color: var(--color2);
+    color: var(--color-blanco);
+}
+#necesidad_adictiva{
+    background-color: var(--color3);
+    color: var(--color-blanco);
+}
+#Gamer{
+    background-color: var(--color2);
+    color: var(--color-blanco);
+}
+#la_compañia{
+    background-color: var(--color1);
+}
+#vision_global{
+    background-color: var(--color2);
+    color: var(--color-blanco);
+}
+#ofertas{
+    background-color: var(--color1);
+}
+#pie_pagina{
+    background-color: var(--color4);
+    color: var(--color-blanco);
+}
+#pie_pagina h2{
+    font-size: 40px;
+}
+#pie_pagina h2{
+    padding: 0;
+}
+#main_footer{
+    background-color: var(--color3);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col{
+    flex-basis: 0;
+    flex-grow: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.col_50{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.col_45{
+    flex-basis: 45%;
+    max-width: 45%;
+}
+.col_60{
+    flex-basis: 60%;
+    max-width: 60%;
+}
+
+.img_fluid{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.centrado_vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sin_subrayado{
+    text-decoration: none;
+    font-style: italic;
+}
+.centrado_vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.separador{
+    margin-bottom: 40px;
+}
+.text_normal{
+    font-style: normal;
+}
